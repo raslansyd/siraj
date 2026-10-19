@@ -1,0 +1,22 @@
+{
+  "name": "sirajuddeen-web-portal",
+  "version": "1.0.0",
+  "description": "Professional Modern Classic Web Portal for Sirajuddeen Mohammed - Inventory and Accountant Associate / GRN Specialist",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -l 3000 .",
+    "serve": "npx http-server -p 8080 ."
+  },
+  "keywords": [
+    "inventory",
+    "accounting",
+    "grn",
+    "retail",
+    "portfolio",
+    "sap",
+    "doha",
+    "qatar"
+  ],
+  "author": "Sirajuddeen Mohammed",
+  "license": "MIT"
+}

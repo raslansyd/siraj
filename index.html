@@ -1,0 +1,1193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sirajuddeen Mohammed | Inventory & Accountant Associate / GRN Specialist</title>
+  <meta name="description" content="Professional Web Portal for Sirajuddeen Mohammed - Inventory and Accountant Associate / GRN Specialist with extensive hypermarket retail experience (Dana, Nesto) and B.Sc in Computer Science. Based in Qatar.">
+  <meta name="keywords" content="Sirajuddeen Mohammed, Inventory Associate, Accountant Associate, GRN, SAP S4 HANA, SAP B1, Storekeeper, Barcode Associate, Doha Qatar, Nesto, Dana Hypermarket">
+  <meta name="author" content="Sirajuddeen Mohammed">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sirajuddeen Mohammed | Professional Web Portal">
+  <meta property="og:description" content="Inventory and Accountant Associate / GRN Specialist. SAP ERP, Retail Inventory, General Ledger Posting. Immediate Joiner in Qatar.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts: Modern Classic (Playfair Display for editorial elegance + Plus Jakarta Sans for crisp clarity) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for crisp UI icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Classic Ornamental Top Bar -->
+  <div class="ornamental-topbar">
+    <div class="container topbar-content">
+      <div class="topbar-item"><i class="fa-solid fa-location-dot"></i> Doha, Qatar</div>
+      <div class="topbar-item availability-pill"><span class="pulse-dot"></span> Available: Immediate Joiner</div>
+      <div class="topbar-item topbar-links">
+        <a href="mailto:msirajudeen02@gmail.com"><i class="fa-solid fa-envelope"></i> msirajudeen02@gmail.com</a>
+        <span class="sep">|</span>
+        <a href="https://linkedin.com/in/mohammed-sirajuddeen-549371244/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn Profile</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="site-header" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-monogram">
+        <div class="monogram-badge">
+          <span>SM</span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">SIRAJUDDEEN MOHAMMED</span>
+          <span class="brand-sub">Inventory & Accountant Associate / GRN</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#about" class="nav-link"><i class="fa-regular fa-user"></i> Dossier</a>
+        <a href="#skills" class="nav-link"><i class="fa-solid fa-layer-group"></i> Core Skills</a>
+        <a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a>
+        <a href="#grn-workflow" class="nav-link"><i class="fa-solid fa-barcode"></i> GRN Workflow</a>
+        <a href="#simulator" class="nav-link"><i class="fa-solid fa-calculator"></i> Reconciliation Lab</a>
+        <a href="#education" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Education</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Theme Palette Selector -->
+        <div class="theme-select-wrapper">
+          <label for="themeSelect" class="sr-only">Color Palette Theme</label>
+          <div class="theme-select-pill">
+            <i class="fa-solid fa-palette theme-icon"></i>
+            <select id="themeSelect" onchange="changeTheme(this.value)" title="Choose Color Palette Theme">
+              <option value="navy">Royal Navy & Gold</option>
+              <option value="emerald">Emerald Forest</option>
+              <option value="slate">Executive Charcoal</option>
+              <option value="maroon">Lite Maroon Classic</option>
+              <option value="dark">Midnight Dark</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Direct PDF Download -->
+        <a href="siraj new.pdf" download="Sirajuddeen_Mohammed_CV.pdf" class="btn btn-outline" id="downloadCvBtn">
+          <i class="fa-solid fa-file-arrow-down"></i> <span>Download CV</span>
+        </a>
+
+        <!-- Print Resume Button -->
+        <button class="btn btn-primary" id="printCvBtn" onclick="window.print()">
+          <i class="fa-solid fa-print"></i> <span>Print Dossier</span>
+        </button>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape-grid-pattern"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="classic-badge-wrap">
+          <span class="classic-badge">
+            <i class="fa-solid fa-award"></i> Retail Operations • SAP S/4 HANA & B1 • B.Sc Computer Science
+          </span>
+        </div>
+
+        <h1 class="hero-title">
+          Modern Classic Precision in <span class="theme-text">Retail Accounting</span> & <span class="gold-text">Inventory GRN</span>
+        </h1>
+
+        <p class="hero-subtitle">
+          Detail-driven professional bridging large-scale Hypermarket Store Operations (<strong>Dana & Nesto</strong>), SAP General Ledger reconciliation, Barcode Administration, and Computer Science acumen.
+        </p>
+
+        <!-- Quick Credential Stats -->
+        <div class="hero-highlights-grid">
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-receipt"></i></div>
+            <div class="highlight-info">
+              <span class="highlight-num">100%</span>
+              <span class="highlight-label">GRN & PO 3-Way Match</span>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+            <div class="highlight-info">
+              <span class="highlight-num">SAP B1 & S/4</span>
+              <span class="highlight-label">ERP Implementation Exp.</span>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon"><i class="fa-solid fa-language"></i></div>
+            <div class="highlight-info">
+              <span class="highlight-num">5 Tongues</span>
+              <span class="highlight-label">Arabic, English & 3 GCC</span>
+            </div>
+          </div>
+          <div class="highlight-card highlight-card-featured">
+            <div class="highlight-icon"><i class="fa-solid fa-bolt"></i></div>
+            <div class="highlight-info">
+              <span class="highlight-num">Immediate</span>
+              <span class="highlight-label">Ready in Qatar</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero CTA Action Group -->
+        <div class="hero-cta-group">
+          <a href="#simulator" class="btn btn-hero-primary">
+            <i class="fa-solid fa-diagram-project"></i> <span>Launch GRN Audit Simulator</span>
+          </a>
+          <a href="https://linkedin.com/in/mohammed-sirajuddeen-549371244/" target="_blank" rel="noopener noreferrer" class="btn btn-hero-linkedin">
+            <i class="fa-brands fa-linkedin-in"></i> <span>Connect on LinkedIn</span>
+          </a>
+          <button class="btn btn-hero-secondary" onclick="openContactModal()">
+            <i class="fa-regular fa-paper-plane"></i> <span>Send Interview Inquiry</span>
+          </button>
+        </div>
+
+        <!-- Direct Contact Badges Strip (Clean, without phone) -->
+        <div class="hero-meta-strip">
+          <span class="meta-tag"><i class="fa-solid fa-envelope"></i> msirajudeen02@gmail.com</span>
+          <span class="meta-tag"><i class="fa-solid fa-location-dot"></i> Doha, Qatar</span>
+          <span class="meta-tag highlight-green-tag"><i class="fa-solid fa-user-check"></i> Immediate Joiner</span>
+        </div>
+      </div>
+
+      <!-- Right Column: Candidate Profile Showcase & Classic Seal -->
+      <div class="hero-card-column">
+        <div class="profile-classic-card">
+          <div class="classic-card-border-outer"></div>
+          <div class="classic-card-inner">
+            <div class="profile-header">
+              <div class="avatar-holder">
+                <div class="avatar-monogram">
+                  <i class="fa-solid fa-user-tie"></i>
+                </div>
+                <div class="status-indicator" title="Immediate Joiner">
+                  <i class="fa-solid fa-check"></i>
+                </div>
+              </div>
+              <div class="profile-headline">
+                <h3 class="profile-name">Sirajuddeen Mohammed</h3>
+                <p class="profile-role">Inventory & Accountant Associate / GRN</p>
+                <div class="badge-row">
+                  <span class="pill-badge pill-theme"><i class="fa-solid fa-shop"></i> Hypermarket Specialist</span>
+                  <span class="pill-badge pill-gold"><i class="fa-solid fa-laptop-code"></i> B.Sc Comp Sci</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="classic-divider">
+              <span>EXECUTIVE SNAPSHOT</span>
+            </div>
+
+            <ul class="dossier-list">
+              <li>
+                <span class="dossier-label"><i class="fa-solid fa-location-crosshairs"></i> Current Base:</span>
+                <span class="dossier-value">Doha, Qatar (GCC Exp.)</span>
+              </li>
+              <li>
+                <span class="dossier-label"><i class="fa-solid fa-clock"></i> Availability:</span>
+                <span class="dossier-value highlight-green">Immediate Joiner</span>
+              </li>
+              <li>
+                <span class="dossier-label"><i class="fa-solid fa-passport"></i> Nationality:</span>
+                <span class="dossier-value">Indian</span>
+              </li>
+              <li>
+                <span class="dossier-label"><i class="fa-solid fa-cake-candles"></i> Date of Birth:</span>
+                <span class="dossier-value">06 / 02 / 2001</span>
+              </li>
+              <li>
+                <span class="dossier-label"><i class="fa-solid fa-language"></i> Languages:</span>
+                <span class="dossier-value">English, Arabic, Malayalam, Hindi, Kannada</span>
+              </li>
+              <li>
+                <span class="dossier-label"><i class="fa-solid fa-network-wired"></i> Core ERPs:</span>
+                <span class="dossier-value">SAP S/4 HANA, SAP B1, Mycom</span>
+              </li>
+            </ul>
+
+            <div class="card-footer-action">
+              <button class="btn btn-block btn-classic-gold" onclick="downloadVCard()">
+                <i class="fa-solid fa-address-card"></i> <span>Export Professional vCard (.VCF)</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Executive Summary & Dossier -->
+  <section class="section dossier-section" id="about">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Professional Dossier</span>
+        <h2 class="section-title">The Strategic Intersection of <span class="theme-text">Retail Logistics</span> & <span class="theme-text">Accounting Integrity</span></h2>
+        <div class="classic-flourish"></div>
+      </div>
+
+      <div class="dossier-grid">
+        <div class="dossier-main-card">
+          <div class="quote-watermark"><i class="fa-solid fa-quote-left"></i></div>
+          <h3 class="dossier-card-title">Professional Summary</h3>
+          <p class="lead-text">
+            I am an enthusiastic, detail-oriented professional seeking to contribute my skills as a <strong>Barcode Associate, Storekeeper, Inventory Associate, and Accountant Associate/GRN</strong>.
+          </p>
+          <p>
+            With a strong background in inventory management and accounting, along with hands-on retail experience using <strong>SAP for GRN processing, stock management, barcode handling, and inventory reconciliation</strong>, I am eager to join your team.
+          </p>
+          <p>
+            I am committed to streamlining operations, ensuring data accuracy and efficiency, and supporting smooth day-to-day retail operations across hypermarkets and enterprise logistics. My technical education in <strong>Computer Science (B.Sc)</strong> gives me a unique competitive edge in understanding data structures, database entries, API validations, and software automation that prevent leakage and optimize inventory turnovers.
+          </p>
+
+          <div class="value-propositions-grid">
+            <div class="prop-box">
+              <div class="prop-icon"><i class="fa-solid fa-check-double"></i></div>
+              <h4>Zero-Tolerance Discrepancy</h4>
+              <p>Rigorous 3-way matching between Purchase Orders, Supplier Delivery Notes, and physical counts to stop shrinkage before GL posting.</p>
+            </div>
+            <div class="prop-box">
+              <div class="prop-icon"><i class="fa-solid fa-arrows-rotate"></i></div>
+              <h4>FIFO Stock Compliance</h4>
+              <p>Disciplined FIFO tracking preventing product expiry, stock aging, and spoilage across multi-aisle hypermarket warehouses.</p>
+            </div>
+            <div class="prop-box">
+              <div class="prop-icon"><i class="fa-solid fa-file-invoice-dollar"></i></div>
+              <h4>AP Reconciliation</h4>
+              <p>Seamless handoff from GRN gate-entry to Accounts Payable ledger, facilitating smooth monthly and annual financial audits.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages & Geographic Mobility Card -->
+        <div class="dossier-sidebar">
+          <div class="dossier-card languages-card">
+            <h3 class="sidebar-title"><i class="fa-solid fa-earth-americas"></i> Multilingual Proficiency</h3>
+            <p class="sidebar-desc">Enabling frictionless liaison with international suppliers, GCC management, retail vendors, and diverse warehouse personnel:</p>
+
+            <div class="language-bars">
+              <div class="lang-item">
+                <div class="lang-info">
+                  <span class="lang-name">English</span>
+                  <span class="lang-level">Professional Working</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 95%;"></div></div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-info">
+                  <span class="lang-name">Arabic</span>
+                  <span class="lang-level">Regional Retail & Operations</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 75%;"></div></div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-info">
+                  <span class="lang-name">Malayalam</span>
+                  <span class="lang-level">Native / Mother Tongue</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 100%;"></div></div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-info">
+                  <span class="lang-name">Hindi</span>
+                  <span class="lang-level">Fluent Working</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 90%;"></div></div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-info">
+                  <span class="lang-name">Kannada</span>
+                  <span class="lang-level">Working Proficiency</span>
+                </div>
+                <div class="progress-track"><div class="progress-fill" style="width: 70%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Retail Experience Badge Box -->
+          <div class="dossier-card employers-card">
+            <h3 class="sidebar-title"><i class="fa-solid fa-building-flag"></i> Notable Retail Footprint</h3>
+            <div class="employer-pills">
+              <div class="employer-tag">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div>
+                  <strong>Dana Hypermarket</strong>
+                  <span>Doha, Qatar</span>
+                </div>
+              </div>
+              <div class="employer-tag">
+                <i class="fa-solid fa-basket-shopping"></i>
+                <div>
+                  <strong>Nesto Hypermarket</strong>
+                  <span>Muscat, Oman</span>
+                </div>
+              </div>
+              <div class="employer-tag">
+                <i class="fa-solid fa-microchip"></i>
+                <div>
+                  <strong>Inlux Intelligence</strong>
+                  <span>Kerala, India</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Core Skills & Competencies -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Skill Matrix</span>
+        <h2 class="section-title">Verified Domain <span class="theme-text">Competencies</span></h2>
+        <p class="section-desc">Classified cross-functional expertise across retail inventory control, financial accounting, and technological foundations.</p>
+        <div class="classic-flourish"></div>
+      </div>
+
+      <!-- Skills Tab Filtering -->
+      <div class="skill-tabs-nav">
+        <button class="skill-tab active" data-filter="all">All Disciplines</button>
+        <button class="skill-tab" data-filter="inventory">Inventory & GRN</button>
+        <button class="skill-tab" data-filter="accounting">Accounting & ERP</button>
+        <button class="skill-tab" data-filter="technical">Technical & Software</button>
+        <button class="skill-tab" data-filter="soft">Leadership & Soft Skills</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-catalog-grid" id="skillsGrid">
+        <!-- Card 1: GRN Processing -->
+        <div class="skill-card" data-category="inventory accounting">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-receipt"></i></div>
+            <span class="skill-badge-tag">Core Domain</span>
+          </div>
+          <h4 class="skill-name">GRN Processing & Matching</h4>
+          <p class="skill-desc">Validating incoming consignments against Purchase Orders and supplier delivery manifests. Authorizing goods receipt notes with zero discrepancy.</p>
+          <div class="skill-tags">
+            <span>3-Way Matching</span>
+            <span>PO Auditing</span>
+            <span>Supplier Invoices</span>
+            <span>Receiving Docks</span>
+          </div>
+        </div>
+
+        <!-- Card 2: ERP Systems -->
+        <div class="skill-card" data-category="accounting technical">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-cubes"></i></div>
+            <span class="skill-badge-tag">Enterprise ERP</span>
+          </div>
+          <h4 class="skill-name">SAP S/4 HANA & SAP B1</h4>
+          <p class="skill-desc">Expertise in SAP Business One and S/4 HANA ERP environments. Experienced in SAP B1 implementation project, module configuration, and data posting.</p>
+          <div class="skill-tags">
+            <span>SAP B1</span>
+            <span>SAP S/4 HANA</span>
+            <span>Mycom ERP</span>
+            <span>Module Migration</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Stock Reconciliation & FIFO -->
+        <div class="skill-card" data-category="inventory">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-boxes-stacked"></i></div>
+            <span class="skill-badge-tag">Stock Control</span>
+          </div>
+          <h4 class="skill-name">Stock Reconciliation & FIFO</h4>
+          <p class="skill-desc">Periodic cycle counts, physical inventory vs system book value reconciliation, FIFO rotation management, shrink prevention, and shortage mitigation.</p>
+          <div class="skill-tags">
+            <span>FIFO Control</span>
+            <span>Cycle Counting</span>
+            <span>Stock Reconciliation</span>
+            <span>Overstock Prevention</span>
+          </div>
+        </div>
+
+        <!-- Card 4: General Ledger & AP -->
+        <div class="skill-card" data-category="accounting">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-scale-balanced"></i></div>
+            <span class="skill-badge-tag">Accounting</span>
+          </div>
+          <h4 class="skill-name">General Ledger Posting & AP</h4>
+          <p class="skill-desc">Direct posting of validated GRNs to General Ledger. Accounts payable reconciliation, invoice batch processing, and supporting monthly/annual statutory audits.</p>
+          <div class="skill-tags">
+            <span>GL Posting</span>
+            <span>Accounts Payable</span>
+            <span>Audit Preparation</span>
+            <span>Compliance Filing</span>
+          </div>
+        </div>
+
+        <!-- Card 5: Barcode & Software Scanning -->
+        <div class="skill-card" data-category="inventory technical">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-barcode"></i></div>
+            <span class="skill-badge-tag">Barcode Ops</span>
+          </div>
+          <h4 class="skill-name">Barcode Management & POS</h4>
+          <p class="skill-desc">Generation and assignment of retail SKU barcodes using dedicated software. Handheld scanner operation, labeling verification, and IT bug escalation.</p>
+          <div class="skill-tags">
+            <span>SKU Barcodes</span>
+            <span>RF Scanners</span>
+            <span>Barcode Software</span>
+            <span>Shelf Price Tagging</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Advanced Excel & Analytics -->
+        <div class="skill-card" data-category="technical accounting">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-file-excel"></i></div>
+            <span class="skill-badge-tag">Data Tools</span>
+          </div>
+          <h4 class="skill-name">Advanced MS Excel</h4>
+          <p class="skill-desc">VLOOKUP, XLOOKUP, Pivot Tables, conditional formulas, multi-sheet reconciliation workbooks, and large-scale SKU discrepancy analysis.</p>
+          <div class="skill-tags">
+            <span>Pivot Tables</span>
+            <span>VLOOKUP</span>
+            <span>Data Verification</span>
+            <span>Discrepancy Models</span>
+          </div>
+        </div>
+
+        <!-- Card 7: Software Testing & Development -->
+        <div class="skill-card" data-category="technical">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-laptop-code"></i></div>
+            <span class="skill-badge-tag">Computer Science</span>
+          </div>
+          <h4 class="skill-name">Web APIs & Quality Assurance</h4>
+          <p class="skill-desc">Software manual testing (web & mobile test case creation, bug documentation) and PHP web engineering with Google Auth and GoDaddy deployment.</p>
+          <div class="skill-tags">
+            <span>Manual Testing</span>
+            <span>PHP APIs</span>
+            <span>Google Auth</span>
+            <span>Bug Documentation</span>
+          </div>
+        </div>
+
+        <!-- Card 8: Supplier Coordination & Storekeeping -->
+        <div class="skill-card" data-category="inventory soft">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-truck-ramp-box"></i></div>
+            <span class="skill-badge-tag">Storekeeping</span>
+          </div>
+          <h4 class="skill-name">Supplier Logistics & Receiving</h4>
+          <p class="skill-desc">Physical inspection of incoming goods condition, dock safety, receiving & issuing workflows, and proactive coordination with suppliers on claim returns.</p>
+          <div class="skill-tags">
+            <span>Receiving & Issuing</span>
+            <span>Supplier Claims</span>
+            <span>Damage Inspection</span>
+            <span>Stockroom Ops</span>
+          </div>
+        </div>
+
+        <!-- Card 9: Soft Skills & Team Leadership -->
+        <div class="skill-card" data-category="soft">
+          <div class="skill-header">
+            <div class="skill-icon-bubble"><i class="fa-solid fa-users"></i></div>
+            <span class="skill-badge-tag">Interpersonal</span>
+          </div>
+          <h4 class="skill-name">Analytical Thinking & Teamwork</h4>
+          <p class="skill-desc">Root-cause problem solving, high attention to numeric detail, cross-departmental communication, pressure adaptability, and leadership in retail rush hours.</p>
+          <div class="skill-tags">
+            <span>Attention to Detail</span>
+            <span>Time Management</span>
+            <span>Problem Solving</span>
+            <span>Adaptability</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Professional Experience Timeline -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Career Trajectory</span>
+        <h2 class="section-title">Professional <span class="theme-text">Work Experience</span></h2>
+        <p class="section-desc">Track record of delivering accountability across hypermarkets in Qatar & Oman and technology firms in India.</p>
+        <div class="classic-flourish"></div>
+      </div>
+
+      <div class="timeline-wrapper">
+        <div class="timeline-spine"></div>
+
+        <!-- Experience 1: Dana Hypermarket -->
+        <div class="timeline-item" data-company="dana">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-building-wheat"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-brand">
+                <span class="company-badge-lite">Qatar • Retail Enterprise</span>
+                <h3 class="company-name">DANA HYPERMARKET</h3>
+                <h4 class="role-title">Accountant Associate / GRN</h4>
+              </div>
+              <div class="timeline-period">
+                <span class="period-pill active-pill"><i class="fa-regular fa-calendar-check"></i> 2025 – Present</span>
+                <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Doha, Qatar</span>
+              </div>
+            </div>
+
+            <p class="experience-summary">
+              Leading the central GRN reconciliation and General Ledger posting operations in a fast-paced hypermarket environment, handling thousands of high-velocity SKU transactions daily.
+            </p>
+
+            <ul class="duties-list">
+              <li><strong>Purchase Order Matching:</strong> Match GRNs with Purchase Orders (POs) and supplier invoices, ensuring all received goods are accurately recorded in the inventory system without delay.</li>
+              <li><strong>Stock Level Optimization:</strong> Monitor stock levels continuously across departments to avoid costly inventory shortages or shelf overstocking.</li>
+              <li><strong>General Ledger Posting:</strong> Ensure all verified GRNs are correctly and punctually posted to the General Ledger, safeguarding financial accuracy.</li>
+              <li><strong>Audit & AP Support:</strong> Assist in invoice processing, supplier statement reconciliation, and accounts payable validation. Support monthly and annual inventory and account audits.</li>
+              <li><strong>Compliance & Records:</strong> Maintain meticulously organized and up-to-date physical and digital inventory and GRN records for regulatory compliance.</li>
+              <li><strong>SAP B1 Implementation:</strong> Actively contributed hands-on experience to the corporate SAP B1 implementation project.</li>
+            </ul>
+
+            <div class="timeline-footer-tags">
+              <span class="exp-tag">SAP B1</span>
+              <span class="exp-tag">General Ledger</span>
+              <span class="exp-tag">PO Verification</span>
+              <span class="exp-tag">Accounts Payable</span>
+              <span class="exp-tag">Audit Support</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2: Nesto Hypermarket - Accountant Associate -->
+        <div class="timeline-item" data-company="nesto">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-brand">
+                <span class="company-badge-lite">Oman • Hypermarket Chain</span>
+                <h3 class="company-name">NESTO HYPERMARKET</h3>
+                <h4 class="role-title">Accountant Associate / GRN</h4>
+              </div>
+              <div class="timeline-period">
+                <span class="period-pill"><i class="fa-regular fa-calendar-days"></i> March 2025 – June 2025</span>
+                <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Muscat, Oman</span>
+              </div>
+            </div>
+
+            <p class="experience-summary">
+              Administered daily retail receiving accounts, vendor invoice validation, and synchronized front-line inventory records with central financial statements.
+            </p>
+
+            <ul class="duties-list">
+              <li>Matched daily GRNs with Purchase Orders, POS systems, and supplier commercial invoices.</li>
+              <li>Maintained accurate book stocks and prevented inventory leakage through prompt system adjustments.</li>
+              <li>Monitored multi-category warehouse stock levels and flagged low-movement items.</li>
+              <li>Ensured accurate, timely GRN posting into the General Ledger system.</li>
+              <li>Supported monthly and annual inventory cycle counts and external account audits.</li>
+            </ul>
+
+            <div class="timeline-footer-tags">
+              <span class="exp-tag">POS Systems</span>
+              <span class="exp-tag">Stock Audits</span>
+              <span class="exp-tag">Supplier Invoicing</span>
+              <span class="exp-tag">Muscat, Oman</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3: Nesto Hypermarket - Store Keeper -->
+        <div class="timeline-item" data-company="nesto">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-warehouse"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-brand">
+                <span class="company-badge-lite">Oman • Warehouse Logistics</span>
+                <h3 class="company-name">NESTO HYPERMARKET</h3>
+                <h4 class="role-title">Store Keeper</h4>
+              </div>
+              <div class="timeline-period">
+                <span class="period-pill"><i class="fa-regular fa-calendar-days"></i> 2024 – March 2025</span>
+                <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Muscat, Oman</span>
+              </div>
+            </div>
+
+            <p class="experience-summary">
+              Direct custodian of incoming consignments, goods staging, safe warehousing conditions, and interdepartmental communications.
+            </p>
+
+            <ul class="duties-list">
+              <li>Inspected and verified incoming shipments against corresponding purchase orders upon arrival.</li>
+              <li>Liaised with external suppliers and internal retail department managers regarding delivery defects, shortages, or schedule delays.</li>
+              <li>Conducted physical inspection of received goods packaging, expiration dates, and condition.</li>
+              <li>Prepared and submitted analytical reports on inventory levels, discrepancies, and damaged items.</li>
+            </ul>
+
+            <div class="timeline-footer-tags">
+              <span class="exp-tag">Shipment Inspection</span>
+              <span class="exp-tag">Discrepancy Reporting</span>
+              <span class="exp-tag">Supplier Liaison</span>
+              <span class="exp-tag">Quality Check</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 4: Nesto Hypermarket - Barcode Associate -->
+        <div class="timeline-item" data-company="nesto">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-barcode"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-brand">
+                <span class="company-badge-lite">Oman • Inventory Systems</span>
+                <h3 class="company-name">NESTO HYPERMARKET</h3>
+                <h4 class="role-title">Barcode Associate</h4>
+              </div>
+              <div class="timeline-period">
+                <span class="period-pill"><i class="fa-regular fa-calendar-days"></i> 2024 – October 2024</span>
+                <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Muscat, Oman</span>
+              </div>
+            </div>
+
+            <p class="experience-summary">
+              Supervised the barcode identification lifecycle for thousands of retail products, guaranteeing flawless scanning at POS checkouts.
+            </p>
+
+            <ul class="duties-list">
+              <li>Generated high-accuracy barcodes for new and re-packaged products using designated printing and inventory software.</li>
+              <li>Conducted physical stock counts and barcode scanning during scheduled inventory audits.</li>
+              <li>Promptly diagnosed and reported technical barcode scanning and handheld terminal issues to IT maintenance teams.</li>
+            </ul>
+
+            <div class="timeline-footer-tags">
+              <span class="exp-tag">Barcode Generation</span>
+              <span class="exp-tag">Physical Scanning</span>
+              <span class="exp-tag">POS Synchronization</span>
+              <span class="exp-tag">IT Coordination</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 5: Inlux Intelligence - Software Manual Tester -->
+        <div class="timeline-item" data-company="inlux">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-vial-circle-check"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-brand">
+                <span class="company-badge-lite">India • Technology & Software</span>
+                <h3 class="company-name">INLUX INTELLIGENCE</h3>
+                <h4 class="role-title">Software Manual Tester</h4>
+              </div>
+              <div class="timeline-period">
+                <span class="period-pill"><i class="fa-regular fa-calendar-days"></i> 2024 – March 2024</span>
+                <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+              </div>
+            </div>
+
+            <p class="experience-summary">
+              Applied rigorous analytical testing methodology to validate web and mobile platforms for operational reliability.
+            </p>
+
+            <ul class="duties-list">
+              <li>Conducted comprehensive manual testing of responsive web portals and mobile applications.</li>
+              <li>Authored detailed test cases and executed multi-branch scenarios to validate software behavior against functional requirements.</li>
+              <li>Identified, categorized, and documented software defects and UI inconsistencies for engineering squads.</li>
+            </ul>
+
+            <div class="timeline-footer-tags">
+              <span class="exp-tag">Manual QA</span>
+              <span class="exp-tag">Test Case Design</span>
+              <span class="exp-tag">Defect Tracking</span>
+              <span class="exp-tag">Web & Mobile</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 6: Inlux Intelligence - PHP Developer -->
+        <div class="timeline-item" data-company="inlux">
+          <div class="timeline-badge">
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div class="company-brand">
+                <span class="company-badge-lite">India • Web Development</span>
+                <h3 class="company-name">INLUX INTELLIGENCE</h3>
+                <h4 class="role-title">PHP Developer</h4>
+              </div>
+              <div class="timeline-period">
+                <span class="period-pill"><i class="fa-regular fa-calendar-days"></i> 2022 – April 2024</span>
+                <span class="location-pill"><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+              </div>
+            </div>
+
+            <p class="experience-summary">
+              Engineered backend web logic, authentication modules, and API integrations for client applications.
+            </p>
+
+            <ul class="duties-list">
+              <li>Implemented secure Google OAuth Authentication integration with custom PHP backends.</li>
+              <li>Constructed and integrated RESTful PHP APIs for data exchange between frontend interfaces and databases.</li>
+              <li>Managed production deployments and hosting configuration in GoDaddy cloud environments.</li>
+            </ul>
+
+            <div class="timeline-footer-tags">
+              <span class="exp-tag">PHP</span>
+              <span class="exp-tag">REST APIs</span>
+              <span class="exp-tag">Google OAuth</span>
+              <span class="exp-tag">GoDaddy Deployment</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Feature 1: The GRN & Inventory Lifecycle Visualizer -->
+  <section class="section grn-workflow-section" id="grn-workflow">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Operational Excellence</span>
+        <h2 class="section-title">The Standard <span class="theme-text">GRN & Retail Inventory</span> Lifecycle</h2>
+        <p class="section-desc">Interactive breakdown illustrating how Sirajuddeen enforces data integrity at every critical receiving milestone.</p>
+        <div class="classic-flourish"></div>
+      </div>
+
+      <!-- Step Navigator -->
+      <div class="workflow-stepper">
+        <div class="workflow-step active" onclick="selectWorkflowStep(1)">
+          <div class="step-num">01</div>
+          <div class="step-title">Gate Delivery & PO Match</div>
+        </div>
+        <div class="workflow-step" onclick="selectWorkflowStep(2)">
+          <div class="step-num">02</div>
+          <div class="step-title">Physical QC & Barcoding</div>
+        </div>
+        <div class="workflow-step" onclick="selectWorkflowStep(3)">
+          <div class="step-num">03</div>
+          <div class="step-title">GRN Creation in SAP</div>
+        </div>
+        <div class="workflow-step" onclick="selectWorkflowStep(4)">
+          <div class="step-num">04</div>
+          <div class="step-title">General Ledger Posting</div>
+        </div>
+        <div class="workflow-step" onclick="selectWorkflowStep(5)">
+          <div class="step-num">05</div>
+          <div class="step-title">Audit Trail & FIFO Staging</div>
+        </div>
+      </div>
+
+      <!-- Step Content Display -->
+      <div class="workflow-display-box" id="workflowDisplay">
+        <div class="workflow-card-body">
+          <div class="workflow-badge" id="wfBadge">Step 1 of 5 • Dock Inward Control</div>
+          <h3 class="workflow-heading" id="wfHeading">Gate Receiving & 3-Way PO Cross-Check</h3>
+          <p class="workflow-text" id="wfText">
+            When supplier delivery vehicles arrive at the hypermarket receiving docks, Siraj cross-examines the driver's Delivery Note against the authorized Purchase Order (PO) in the ERP. Only pre-authorized items and confirmed delivery dates are admitted to the receiving staging zone.
+          </p>
+
+          <div class="workflow-details-grid">
+            <div class="wf-detail-item">
+              <span class="wf-detail-label"><i class="fa-solid fa-shield-halved"></i> Key Controls:</span>
+              <span class="wf-detail-val" id="wfControls">Check PO validity, verify supplier license, cross-check delivery timestamps.</span>
+            </div>
+            <div class="wf-detail-item">
+              <span class="wf-detail-label"><i class="fa-solid fa-wrench"></i> Systems / Tools:</span>
+              <span class="wf-detail-val" id="wfTools">SAP B1 / S/4 HANA PO Module, Inward Logbook, Dock Scanners.</span>
+            </div>
+            <div class="wf-detail-item">
+              <span class="wf-detail-label"><i class="fa-solid fa-bullseye"></i> Business Impact:</span>
+              <span class="wf-detail-val" id="wfImpact">Eliminates unauthorized shipments, wrong vendor consignments, and over-delivery liability.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="workflow-controls-bar">
+          <button class="btn btn-outline" id="prevWfBtn" onclick="prevWorkflowStep()"><i class="fa-solid fa-arrow-left"></i> Previous Step</button>
+          <span class="step-counter-text" id="stepCounterText">Step 1 / 5</span>
+          <button class="btn btn-primary" id="nextWfBtn" onclick="nextWorkflowStep()">Next Step <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Feature 2: Live Stock & GRN Reconciliation Demo -->
+  <section class="section simulator-section" id="simulator">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Interactive Audit Lab</span>
+        <h2 class="section-title">GRN & Discrepancy <span class="theme-text">Reconciliation Engine</span></h2>
+        <p class="section-desc">Experience a hands-on simulation of Sirajuddeen's analytical verification process. Adjust delivery parameters below to see how discrepancies are flagged, computed, and resolved.</p>
+        <div class="classic-flourish"></div>
+      </div>
+
+      <div class="simulator-wrapper">
+        <div class="simulator-form-pane">
+          <h3 class="pane-title"><i class="fa-solid fa-sliders"></i> Audit Parameters</h3>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="simItemName">Retail Product SKU / Item</label>
+              <select id="simItemName" class="form-control" onchange="runReconciliation()">
+                <option value="Basmati Rice 5KG (Food Category)">Basmati Rice 5KG (Food Category)</option>
+                <option value="Sunflower Cooking Oil 1.8L (FMCG)">Sunflower Cooking Oil 1.8L (FMCG)</option>
+                <option value="Organic Fresh Milk 1L (Perishable/FIFO)">Organic Fresh Milk 1L (Perishable/FIFO)</option>
+                <option value="Electronics Smart TV 55 Inch (High Value)">Electronics Smart TV 55 Inch (High Value)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="simPoQty">Purchase Order Qty (PO)</label>
+              <input type="number" id="simPoQty" class="form-control" value="500" min="1" oninput="runReconciliation()">
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="simRcvQty">Physically Counted / Received Qty</label>
+              <input type="number" id="simRcvQty" class="form-control" value="480" min="0" oninput="runReconciliation()">
+            </div>
+            <div class="form-group">
+              <label for="simInvQty">Supplier Invoice Qty</label>
+              <input type="number" id="simInvQty" class="form-control" value="500" min="0" oninput="runReconciliation()">
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="simUnitPrice">Unit Cost (QAR / OMR)</label>
+              <input type="number" id="simUnitPrice" class="form-control" value="28.50" step="0.5" oninput="runReconciliation()">
+            </div>
+            <div class="form-group">
+              <label for="simDamagedQty">Damaged / Non-Compliant Qty</label>
+              <input type="number" id="simDamagedQty" class="form-control" value="5" min="0" oninput="runReconciliation()">
+            </div>
+          </div>
+
+          <div class="sim-presets">
+            <span class="preset-label">Quick Scenarios:</span>
+            <button class="preset-btn" onclick="loadSimPreset('clean')">Clean Match (100%)</button>
+            <button class="preset-btn" onclick="loadSimPreset('shortage')">Vendor Shortage</button>
+            <button class="preset-btn" onclick="loadSimPreset('damage')">Damaged Goods</button>
+            <button class="preset-btn" onclick="loadSimPreset('over')">Over-Delivery</button>
+          </div>
+        </div>
+
+        <!-- Simulator Result Output Card -->
+        <div class="simulator-result-pane">
+          <div class="result-card-inner">
+            <div class="result-status-banner" id="simStatusBanner">
+              <i class="fa-solid fa-triangle-exclamation" id="simStatusIcon"></i>
+              <div>
+                <h4 id="simStatusTitle">Shortage Discrepancy Detected</h4>
+                <p id="simStatusSubtitle">Invoiced quantity exceeds physically received stock.</p>
+              </div>
+            </div>
+
+            <div class="result-metrics-grid">
+              <div class="metric-box">
+                <span class="m-label">Net Accepted Stock</span>
+                <span class="m-val highlight-theme" id="resAcceptedQty">475 Units</span>
+              </div>
+              <div class="metric-box">
+                <span class="m-label">Variance Qty</span>
+                <span class="m-val" id="resVarianceQty">-25 Units</span>
+              </div>
+              <div class="metric-box">
+                <span class="m-label">Approved GRN Value</span>
+                <span class="m-val" id="resGrnValue">QAR 13,537.50</span>
+              </div>
+              <div class="metric-box">
+                <span class="m-label">Supplier Debit / Claim</span>
+                <span class="m-val highlight-danger" id="resClaimValue">QAR 712.50</span>
+              </div>
+            </div>
+
+            <div class="action-recommendation">
+              <h5 class="action-title"><i class="fa-solid fa-clipboard-check"></i> Siraj's Standard Operating Action:</h5>
+              <p class="action-desc" id="resActionText">
+                Generate GRN strictly for <strong>475 accepted units</strong> in SAP. Automatically deduct 20 units vendor shortage and 5 units damaged goods. Issue formal Debit Note / Claim Voucher for QAR 712.50 before forwarding to Accounts Payable for General Ledger posting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Education & Credentials -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-eyebrow">Academic Background</span>
+        <h2 class="section-title">Education & <span class="theme-text">Qualifications</span></h2>
+        <p class="section-desc">Solid academic foundation combining computer science, scientific methodology, and analytical thinking.</p>
+        <div class="classic-flourish"></div>
+      </div>
+
+      <div class="education-grid">
+        <!-- Degree Card -->
+        <div class="edu-card featured-edu">
+          <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-year">2018 – 2021</div>
+          <h3 class="edu-title">Bachelor of Science, Computer Science</h3>
+          <h4 class="edu-institution"><i class="fa-solid fa-university"></i> Kannur University</h4>
+          <span class="edu-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+          <p class="edu-desc">
+            Core subjects in algorithms, relational database management systems (RDBMS), data structures, software engineering, and systems analysis. Provides the robust data acumen required for modern ERP and inventory tracking systems.
+          </p>
+          <div class="edu-tags">
+            <span>Data Structures</span>
+            <span>Database Systems</span>
+            <span>Software Engineering</span>
+            <span>Computer Science</span>
+          </div>
+        </div>
+
+        <!-- Higher Secondary -->
+        <div class="edu-card">
+          <div class="edu-badge"><i class="fa-solid fa-school"></i></div>
+          <div class="edu-year">2016 – 2018</div>
+          <h3 class="edu-title">Higher Secondary Certificate</h3>
+          <h4 class="edu-institution"><i class="fa-solid fa-building-columns"></i> Board of Higher Secondary Examinations</h4>
+          <span class="edu-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+          <p class="edu-desc">
+            Rigorous curriculum focused on mathematics, physics, and computer fundamentals, fostering strong quantitative and problem-solving abilities.
+          </p>
+          <div class="edu-tags">
+            <span>Science Stream</span>
+            <span>Mathematics</span>
+            <span>Analytical Studies</span>
+          </div>
+        </div>
+
+        <!-- SSLC -->
+        <div class="edu-card">
+          <div class="edu-badge"><i class="fa-solid fa-award"></i></div>
+          <div class="edu-year">2015 – 2016</div>
+          <h3 class="edu-title">Secondary School Leaving Certificate (SSLC)</h3>
+          <h4 class="edu-institution"><i class="fa-solid fa-landmark"></i> General Education Department</h4>
+          <span class="edu-location"><i class="fa-solid fa-location-dot"></i> Kerala, India</span>
+          <p class="edu-desc">
+            Foundational secondary education establishing high academic dedication, linguistic diversity, and multidisciplinary problem-solving.
+          </p>
+          <div class="edu-tags">
+            <span>General Curriculum</span>
+            <span>Distinction</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Contact & Hiring Portal (Refined & Clean without phone) -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <div class="contact-ornament"></div>
+        <div class="contact-inner">
+          <div class="contact-header text-center">
+            <span class="section-eyebrow">Engagement Hub</span>
+            <h2 class="section-title">Ready for <span class="theme-text">Immediate Onboarding</span></h2>
+            <p class="contact-subtitle">
+              Based in Doha, Qatar. Available for immediate joining as an Accountant Associate / GRN, Inventory Controller, Barcode Specialist, or Storekeeper.
+            </p>
+            <div class="classic-flourish"></div>
+          </div>
+
+          <div class="contact-methods-grid">
+            <!-- Method 1: Email -->
+            <a href="mailto:msirajudeen02@gmail.com" class="contact-tile featured-tile">
+              <div class="tile-icon email-icon"><i class="fa-regular fa-envelope"></i></div>
+              <div class="tile-content">
+                <span class="tile-label">Direct Email Inquiry</span>
+                <span class="tile-val">msirajudeen02@gmail.com</span>
+                <span class="tile-action">Send Email Message</span>
+              </div>
+            </a>
+
+            <!-- Method 2: LinkedIn -->
+            <a href="https://linkedin.com/in/mohammed-sirajuddeen-549371244/" target="_blank" rel="noopener noreferrer" class="contact-tile">
+              <div class="tile-icon linkedin-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="tile-content">
+                <span class="tile-label">LinkedIn Network</span>
+                <span class="tile-val">mohammed-sirajuddeen</span>
+                <span class="tile-action">Connect on LinkedIn</span>
+              </div>
+            </a>
+
+            <!-- Method 3: Location / Mobility -->
+            <div class="contact-tile">
+              <div class="tile-icon location-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="tile-content">
+                <span class="tile-label">Current Location</span>
+                <span class="tile-val">Doha, Qatar</span>
+                <span class="tile-badge-inline">Immediate Joiner</span>
+              </div>
+            </div>
+
+            <!-- Method 4: vCard Contact Card -->
+            <div class="contact-tile" style="cursor: pointer;" onclick="downloadVCard()">
+              <div class="tile-icon vcard-icon"><i class="fa-solid fa-address-card"></i></div>
+              <div class="tile-content">
+                <span class="tile-label">Professional Dossier</span>
+                <span class="tile-val">vCard Profile (.VCF)</span>
+                <span class="tile-action">Export to Contacts</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Interactive Message Trigger -->
+          <div class="quick-inquire-cta text-center">
+            <button class="btn btn-hero-primary" onclick="openContactModal()">
+              <i class="fa-regular fa-paper-plane"></i> <span>Send an Interview Invitation</span>
+            </button>
+            <a href="siraj new.pdf" download="Sirajuddeen_Mohammed_CV.pdf" class="btn btn-outline">
+              <i class="fa-solid fa-file-pdf"></i> <span>Download Official PDF CV</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modern Classic Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-col-brand">
+        <div class="footer-logo">
+          <span class="f-monogram">SM</span>
+          <span class="f-name">SIRAJUDDEEN MOHAMMED</span>
+        </div>
+        <p class="footer-summary">
+          Inventory and Accountant Associate / GRN Specialist. Ensuring inventory precision, ledger synchronicity, and operational agility across Qatar and GCC retail establishments.
+        </p>
+      </div>
+
+      <div class="footer-col-nav">
+        <h4 class="footer-title">Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Dossier</a></li>
+          <li><a href="#skills">Core Competencies</a></li>
+          <li><a href="#experience">Career Experience</a></li>
+          <li><a href="#grn-workflow">GRN Workflow</a></li>
+          <li><a href="#simulator">Reconciliation Lab</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col-actions">
+        <h4 class="footer-title">Recruiter Quick Actions</h4>
+        <div class="footer-btn-stack">
+          <a href="siraj new.pdf" download="Sirajuddeen_Mohammed_CV.pdf" class="btn btn-block btn-sm btn-outline">
+            <i class="fa-solid fa-download"></i> Download CV (PDF)
+          </a>
+          <button class="btn btn-block btn-sm btn-outline" onclick="downloadVCard()">
+            <i class="fa-solid fa-address-book"></i> Export Contact (vCard)
+          </button>
+          <button class="btn btn-block btn-sm btn-primary" onclick="window.print()">
+            <i class="fa-solid fa-print"></i> Print Clean Resume
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container bottom-content">
+        <p>© 2026 Sirajuddeen Mohammed. All Rights Reserved. Modern Classic Professional Portfolio.</p>
+        <p class="bottom-right">Doha, Qatar • Immediate Joiner • msirajudeen02@gmail.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Contact / Interview Modal (Without phone requirement) -->
+  <div class="modal-backdrop" id="contactModal">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <span class="modal-eyebrow">Hiring & Interview Portal</span>
+          <h3 class="modal-title">Connect with Sirajuddeen</h3>
+        </div>
+        <button class="modal-close" onclick="closeContactModal()">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-intro">
+          Fill out the details below to dispatch an interview invitation or recruitment inquiry directly to Sirajuddeen Mohammed via email.
+        </p>
+
+        <form id="contactForm" onsubmit="handleContactSubmit(event)">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="cName">Your Name / Organization *</label>
+              <input type="text" id="cName" class="form-control" placeholder="e.g. Retail Enterprise HR" required>
+            </div>
+            <div class="form-group">
+              <label for="cEmail">Your Work Email *</label>
+              <input type="email" id="cEmail" class="form-control" placeholder="recruitment@company.com" required>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="cCompany">Company / Branch Location</label>
+              <input type="text" id="cCompany" class="form-control" placeholder="e.g. Hypermarket Group, Doha">
+            </div>
+            <div class="form-group">
+              <label for="cRole">Role Openings</label>
+              <select id="cRole" class="form-control">
+                <option value="Accountant Associate / GRN">Accountant Associate / GRN</option>
+                <option value="Inventory Controller / Associate">Inventory Controller / Associate</option>
+                <option value="Storekeeper / Warehouse Lead">Storekeeper / Warehouse Lead</option>
+                <option value="Barcode Associate / Admin">Barcode Associate / Admin</option>
+                <option value="Software QA / Tech Role">Software QA / Tech Role</option>
+                <option value="Other Opportunity">Other Opportunity</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="cMessage">Inquiry / Interview Message *</label>
+            <textarea id="cMessage" class="form-control" rows="4" placeholder="Hello Sirajuddeen, we are interested in discussing an opening in Doha, Qatar..." required></textarea>
+          </div>
+
+          <div class="modal-footer-btns">
+            <button type="button" class="btn btn-outline" onclick="closeContactModal()">Cancel</button>
+            <button type="submit" class="btn btn-primary"><i class="fa-regular fa-paper-plane"></i> Send Inquiry</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
